@@ -13,10 +13,6 @@ function App() {
     setNombre(e.target.value)
   }
 
-  const manejarCambioCantidad = (e) => {
-    setCantidad(e.target.value)
-  }
-
   const agregarItem = (e) => {
     // Previene que se recargue la página al enviar el <form>
     e.preventDefault();
